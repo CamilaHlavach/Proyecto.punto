@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding: 0%
+}
+
+.bg-col{
+    background-color:rgb(192, 26, 26);
+}
+.nav-link{
+    color: white;
+}
+.form-label{
+    color: white;
+}
+
+.form-check-label{
+    color: white;
+}
+.bi-geo-alt-fill{
+    color: white;
+}
+
+.text-nosotros{
+    color: white;
+}
+
+.color-titulo{
+    color: white;
+}
+
+.btn-primary{
+    background-color: #f43333;
+    border-color: #bd0d0d;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #dc4038;
+    border-color: beige;
+    color: white;
+    transform: scale(0.9);
+}
+.btn-primary{
+    color: black;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.img-abs{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    display: block;
+    border-radius: 150px;
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(192, 26, 26);
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.ancho-footer{
+    margin-top: 30px;
+}
+
+.bi-instagram {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    
+}
+
+.bi-instagram:hover{
+    color: fuchsia
+}
+
+.bi-facebook{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black
+}
+.bi-facebook:hover{
+    color: blue
+}
+.bi-whatsapp{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
+.bi-whatsapp:hover{
+    color: green;
+}
+
+.tracking-in-expand{-webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both}
+
+ @-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.focus-in-contract-bck{-webkit-animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) both;animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) both}
+ @-webkit-keyframes focus-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(300px);transform:translateZ(300px);-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-transform:translateZ(12px);transform:translateZ(12px);-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes focus-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(300px);transform:translateZ(300px);-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-transform:translateZ(12px);transform:translateZ(12px);-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+ 
+
+@media (max-width: 576px) { 
+    Body {
+        width: 200%;
+        height: 200%;
+    }
+    
+    img.img-abs{
+        width: 70%;
+        height: 70%;
+    }
+
+   
+}
