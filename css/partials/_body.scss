@@ -34,6 +34,25 @@
       display: block;
       border-radius: 150px;
   }
+.img-contacto{
+    margin-top: 50px;
+}
+.img-condiciones{
+    @extend .img-contacto;
+}
+.img-nosotros{
+    @extend .img-contacto;
+}
+.carousel-item{
+    @extend .img-contacto;
+}
+.carousel-control-prev-icon{
+    margin-top: 100px;
+}
+.carousel-control-next-icon{
+    @extend .carousel-control-prev-icon;
+ 
+}
   
   .tracking-in-expand{-webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both}
 
