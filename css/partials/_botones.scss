@@ -1,0 +1,12 @@
+.btn-primary{
+    background-color: $color-boton;
+    border-color: $border-boton;
+    color: $color-blanco;
+
+    & :hover{
+        background-color: $boton-hov;
+        border-color: $color-blanco;
+        color: $color-blanco;
+        transform: scale(0.9);
+    }
+}

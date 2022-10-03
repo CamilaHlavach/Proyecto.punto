@@ -1,0 +1,41 @@
+footer{
+    width: 100%;
+    background-color:$color-principal;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.ancho-footer{
+    margin-top: 30px;
+}
+.bi-instagram {
+    @extend .btn-redes;
+    
+}
+
+.bi-instagram:hover{
+    color: fuchsia
+}
+
+.bi-facebook{
+    @extend .btn-redes;
+}
+.bi-facebook:hover{
+    color: blue
+}
+.bi-whatsapp{
+    @extend .btn-redes;
+}
+.bi-whatsapp:hover{
+    color: green;
+}
+.btn-redes {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
